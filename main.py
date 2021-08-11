@@ -12,6 +12,10 @@ def main():
     @client.command(name = 'ping')
     async def _ping(ctx):
         await ctx.send("pong")
+    
+    @client.command(name = '이름')
+    async def _ping(ctx):
+        await ctx.send(ctx.author.name)
 
 
 
