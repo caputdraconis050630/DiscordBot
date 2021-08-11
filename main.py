@@ -15,7 +15,7 @@ def main():
     
     @client.command(name = '이름')
     async def _ping(ctx):
-        await ctx.send(ctx.author.name)
+        await ctx.send("명령어를 입력하신 분의 이름은 "+ ctx.author.name+"이네요!")
 
 
 
